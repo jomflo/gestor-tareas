@@ -1,0 +1,24 @@
+.tareas-lista-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
+
+/*Media Queries*/
+
+@media only screen and (max-width:768px) {
+    .tareas-lista-contenedor {
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .tareas-lista-contenedor {
+        margin-left: 0;
+    }
+}
