@@ -1,6 +1,6 @@
 {
     "homepage": "https://jomflo.github.io/gestor-tareas",
-    "name": "geestor-tareas",
+    "name": "gestor-tareas",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
