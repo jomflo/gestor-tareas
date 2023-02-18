@@ -14,11 +14,13 @@
 @media only screen and (max-width:768px) {
     .tareas-lista-contenedor {
         margin-left: 0;
+        max-height: 58vh;
     }
 }
 
 @media only screen and (max-width:480px) {
     .tareas-lista-contenedor {
         margin-left: 0;
+        max-height: 65vh;
     }
 }

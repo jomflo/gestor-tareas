@@ -9,7 +9,7 @@ body {
     color: white;
     background-color: #1b1b32;
     font-family: Lato, sans-serif;
-    margin-top: 40px;
+    margin: 0 auto;
 }
 
 h1 {
@@ -36,30 +36,27 @@ h1 {
     background-color: #d0d0d5;
     padding: 25px;
     margin: 10px;
-    border-radius: 26px;
+    border-radius: 15px;
 }
 
 
 /*Media Queries*/
 
 @media only screen and (max-width:768px) {
-    .tarea-contenedor {
-        width: 95%;
-        height: 100%;
-        font-size: 20px;
-        color: rgb(16, 253, 16);
-        display: flex;
-        align-items: center;
-        overflow-wrap: anywhere;
-    }
-    .tarea-input {
-        width: 60%;
+    .tareas-lista-principal {
+        margin: 0 auto;
+        height: 80vh;
+        border-radius: 10px;
+        padding: 15px 2px;
     }
 }
 
 @media only screen and (max-width:480px) {
     /*Lista de Treas*/
     .tareas-lista-principal {
+        margin: 0 auto;
+        height: 90vh;
+        border-radius: 10px;
         padding: 15px 2px;
     }
 }
